@@ -1,0 +1,107 @@
+main div { width: 100%; display: inline-block; }
+
+img, svg { width: 100%; }
+
+svg { height: 10px; }
+
+arrowSets:hover { fill: #444; }
+
+.selected { color: green; }
+
+body {
+  font-family: "Bauhaus 93", Baskerville, Arial, sans-serif;
+  font-size: 30px;
+  background-color: #fff;
+  }
+
+a:hover, a:active
+{
+background-color: #444;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.mainNav
+{
+  height: 70px;
+  background-color: #78C143;
+  border-radius: 7px;
+  display: flex;
+}
+
+.mainNav ul
+{
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.mainNav ul li {
+  margin: 20px;
+}
+
+.mainNav ul li a
+{
+  color: #fff;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+  padding: 10px;
+}
+
+.mainNav ul li a:hover {
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.selected
+{
+  padding: 2px 0px 5px 0px;
+  background-color: #78C143;
+}
+
+.arrowSets
+{
+  display: flex;
+  flex-direction: collum;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.arrowSets p
+{
+  font-size: 16px;
+}
+
+.callus, .hours, .location
+{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#iconNav {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+#iconNav li {
+  display: inline;
+  margin-left: 100px;
+}
+
+#iconNav li a {
+  filter: grayscale(100%);
+}
+
+#iconNav li a:hover {
+  filter: grayscale(0%);
+}
